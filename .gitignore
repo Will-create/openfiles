@@ -5,3 +5,5 @@
 /index.js.map
 /node_modules/
 /package-lock.json
+/databases/
+/index.pid
