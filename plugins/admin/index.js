@@ -129,9 +129,3 @@ if (!Storage.user) {
 }
 
 CONF.op_cookie = Storage.user.cookie;
-
-
-ROUTE('POST /kokot/', function($) {
-	console.log('CALLBACK', $.body);
-	$.invalid('JEBO');
-});
